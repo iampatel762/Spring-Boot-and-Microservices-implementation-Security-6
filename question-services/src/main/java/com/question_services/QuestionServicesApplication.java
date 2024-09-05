@@ -1,0 +1,15 @@
+package com.question_services;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@SpringBootApplication
+@EnableFeignClients
+public class QuestionServicesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(QuestionServicesApplication.class, args);
+	}
+
+}
